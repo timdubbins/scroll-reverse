@@ -10,7 +10,4 @@ Running this script toggles the scroll direction via System Preferences and so t
 
 # Add To Dock
 
-To add this script to the dock, open `scroll-reverse.scpt` in Script Editor and save as `Application`
-Add this new app to the Accessibility list (System Preferences > Security & Privacy > Privacy)
-Drag the new file to the dock
-You can change the app icon by right-clicking to `Get Info` and then pasting an image onto the default image.
+To add this script to the dock, open `scroll-reverse.scpt` in Script Editor and save as `Application`. Add this new app to the Accessibility list (System Preferences > Security & Privacy > Privacy). Drag the new file to the dock. You can change the app icon by right-clicking to `Get Info` and then pasting an image onto the default image.
