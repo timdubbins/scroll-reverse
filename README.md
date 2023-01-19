@@ -1,8 +1,10 @@
 # Scroll Reverse
 
 Reverses the scroll direction on macOS. Useful if like to change this setting when switching between using the trackpad and a mouse. You can set the scroll direction via the command line with the following (choosing either true or false)
+
 `defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true/false`
-However this requires a logout/login to take effect. 
+
+However this requires a logout / login to take effect. 
 
 Running this script toggles the scroll direction via System Preferences and so the effects are immediate.
 
