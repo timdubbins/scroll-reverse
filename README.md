@@ -1,19 +1,14 @@
 # Scroll Reverse
 
-Reverses the scroll direction on macOS. Useful if like to change this setting when switching between using the trackpad and a mouse.
+Reverses the scroll direction on macOS. Useful if like to change this setting when switching between using the trackpad and a mouse. You can set the scroll direction via the command line with the following (choosing either true or false)
+`defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true/false`
+However this requires a logout/login to take effect. 
 
-__To run this script from the dock:__
+Running this script toggles the scroll direction via System Preferences and so the effects are immediate.
 
-Open main.scpt in Script Editor  
-Rename the file and save as Application (holding Option-key, File > Save As)  
-Add your app to the Accessibility list in System Preferences > Security & Privacy > Privacy  
-Drag the new file from Finder into the dock  
+# Add To Dock
 
-__To change the icon from it's default:__
-
-Open icon.png (or an image of your choosing) in Preview  
-Copy the image (Cmd + A, followed by Cmd + V)  
-Right-click on the app in Finder and select 'Get Info'  
-Left-click on the default image in the top left corner to select it  
-Paste the new image in it's place with Cmd + V  
-Clicking on the app in the dock will update the icon image. And reverse the direction of your scrolling :ok_hand:
+To add this script to the dock, open `scroll-reverse.scpt` in Script Editor and save as `Application`
+Add this new app to the Accessibility list (System Preferences > Security & Privacy > Privacy)
+Drag the new file to the dock
+You can change the app icon by right-clicking to `Get Info` and then pasting an image onto the default image.
